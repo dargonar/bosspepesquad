@@ -10,7 +10,8 @@ import Services from "sections/Services-crypto";
 import PreSell from "sections/PreSell";
 import Features from "sections/Features-crypto";
 import Roadmap from "sections/Roadmap";
-import Faq from "sections/Faq-Classic";
+// import Faq from "sections/Faq-Classic";
+import Faq from "sections/Faq-Ex";
 import Sefty from "sections/Sefty-crypto";
 import Purgatory  from "sections/Purgatory";
 import BuyCoin from "sections/Buy-coin"; 
@@ -40,6 +41,9 @@ const IndexPage = () => (
       <Roadmap />
       <Team />
       <Rarity />
+      
+      <Faq />
+
       <Contact />
       <Footer />
     </Layout>
