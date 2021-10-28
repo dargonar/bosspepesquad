@@ -23,7 +23,7 @@ import Rarity from "sections/Rarity";
 import Gallery from "sections/Gallery";
 import Getapp from "sections/Getapp-crypto";
 import Contact from "sections/Contact-crypto";
-import Footer from "sections/Footer-crypto";
+import Footer from "sections/Footer-Ex";
 
 import { GlobalStyle } from "theme/crypto/crypto.style";
 import theme from "theme/crypto/themeStyles";
@@ -43,8 +43,6 @@ const IndexPage = () => (
       <Rarity />
       
       <Faq />
-
-      <Contact />
       <Footer />
     </Layout>
   </ThemeProvider>
