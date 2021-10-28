@@ -1,30 +1,55 @@
 {
-  "name": "gatsby-starter-lander",
-  "author": "Hunter Chang",
-  "repository": "https://github.com/codebushi/gatsby-starter-lander",
-  "version": "1.1.0",
-  "license": "MIT",
+  "name": "gatsby-landing",
+  "private": true,
+  "description": "React Next Landing with Gatsby Static site generator.",
+  "version": "1.0.3",
+  "author": "Devscorn",
+  "license": "",
   "scripts": {
+    "build": "gatsby build",
     "develop": "gatsby develop",
-    "build": "gatsby build"
+    "dev": "npm run develop",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\""
   },
   "dependencies": {
-    "gatsby": "^3.0.3",
-    "gatsby-plugin-emotion": "^6.0.0",
-    "gatsby-theme-codebushi": "^1.0.0",
-    "react": "^17.0.1",
-    "react-anchor-link-smooth-scroll": "^1.0.12",
-    "react-dom": "^17.0.1"
+    "babel-plugin-styled-components": "^1.10.7",
+    "gatsby": "^2.19.32",
+    "gatsby-image": "^2.2.34",
+    "gatsby-plugin-anchor-links": "^1.1.0",
+    "gatsby-plugin-manifest": "^2.2.30",
+    "gatsby-plugin-module-resolver": "^1.0.3",
+    "gatsby-plugin-react-helmet": "^3.1.16",
+    "gatsby-plugin-sharp": "^2.3.4",
+    "gatsby-plugin-styled-components": "^3.1.19",
+    "gatsby-source-filesystem": "^2.1.39",
+    "gatsby-transformer-sharp": "^2.3.6",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.0",
+    "react-accessible-accordion": "^3.0.1",
+    "react-countup": "^4.2.3",
+    "react-dom": "^16.13.0",
+    "react-helmet": "^5.2.1",
+    "react-icons": "^3.8.0",
+    "react-particles-js": "^2.7.1",
+    "react-scroll": "^1.7.16",
+    "react-slick": "^0.25.2",
+    "react-visibility-sensor": "^5.1.1",
+    "styled-components": "^4.4.1"
+  },
+  "peerDependencies": {
+    "styled-components": "^4.4.1"
   },
   "devDependencies": {
-    "eslint": "^7.21.0",
-    "eslint-config-airbnb": "^18.0.1",
-    "eslint-config-prettier": "^8.1.0",
-    "eslint-plugin-import": "^2.19.1",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-prettier": "^3.1.2",
-    "eslint-plugin-react": "^7.17.0",
-    "eslint-plugin-react-hooks": "^4.2.0",
-    "prettier": "^2.2.1"
-  }
+    "@hot-loader/react-dom": "^16.13.0",
+    "prettier": "^1.19.1"
+  },
+  "keywords": [
+    "gatsby",
+    "appion",
+    "landings",
+    "sass landing"
+  ]
 }
