@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Appion react gatsby nextjs landing`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `Devscorn`,
+    title: `BossPepeSquad react gatsby nextjs landing`,
+    description: `7777 deflationary Pepes created on the Solana Labs and landed on blockchain, all with different characteristics and attributes.`,
+    author: `BossPepeSquad Team`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
