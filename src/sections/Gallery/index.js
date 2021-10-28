@@ -92,17 +92,11 @@ const Gallery = () => {
       .slice(0, 16);
   
   const items = images.length;
-  console.log('>>>>>>>>>>>>>>>>> items:', items)
   let rows = []
   const items_mod = items / 4;
-  console.log('>>>>>>>>>>>>>>>>> items_mod: ', items_mod)
   for (let i = 0; i < items_mod; i++) {
       let row = []
-      console.log('>>>>>>>>>>>>>>>>> i:', i)
       for (let j = 0; j < 4; j++) {
-        console.log('>>>>>>>>>>>>>>>>> j:', j)
-        const idx = (i*4)+j;
-        console.log('>>>>>>>>>>>>>>>>> idx:', idx)
         row.push(
           <Col xs={12} sm={6} lg={3}>
             <div className="news-wrap">

@@ -51,7 +51,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: square-deal, 'Square deal', 'Poppins', sans-serif;
+    /*font-family: square-deal, 'Square deal', 'Poppins', sans-serif;*/
     color: ${props => props.theme.headingColor}; 
     margin: 0;
 }
