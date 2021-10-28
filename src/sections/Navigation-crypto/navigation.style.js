@@ -107,14 +107,16 @@ const NavigationWrap =  styled.header`
     margin-top: 8px;
     transition: all 0.8s cubic-bezier(0.3, 0.8, 0.2, 1) 0s;
     img{
-      width: 135px;
+      /*width: 135px;*/
+      width: 250px;
     }
   }
   &.scrolled{
     box-shadow: rgba(0, 0, 0, 0.05) 0px 10px 30px;
     background: #2A1461;
     .logo{
-        width: 100px;
+        /*width: 100px;*/
+        width: 200px;
     } 
     .nav{
       li{

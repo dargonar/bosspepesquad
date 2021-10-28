@@ -97,6 +97,7 @@ const Gallery = () => {
   for (let i = 0; i < items_mod; i++) {
       let row = []
       for (let j = 0; j < 4; j++) {
+        const idx = (i*4)+j;
         row.push(
           <Col xs={12} sm={6} lg={3}>
             <div className="news-wrap">
@@ -110,9 +111,6 @@ const Gallery = () => {
       }
       rows.push(<Row>{row}</Row>)
   }
-
-  console.log('>>>>>>>>>>>>>>>>>', rows)
-  
 
   return (
     <GallerySectionWrapper>
