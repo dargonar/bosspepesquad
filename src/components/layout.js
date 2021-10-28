@@ -21,13 +21,13 @@ const Layout = ({ children }) => {
           rel='stylesheet'
         />
         <link
-          href='/static/fonts/square-deal.woff'
+          href='/fonts/square-deal.woff'
           rel='stylesheet'
         />
         <link
           rel="stylesheet"
           type="text/css"
-          href="/static/css/pepes.css"
+          href="/css/pepes.css"
         />
         <link
           rel="stylesheet"

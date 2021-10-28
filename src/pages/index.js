@@ -17,6 +17,7 @@ import BuyCoin from "sections/Buy-coin";
 import Counters from "sections/Counters-crypto"; 
 import Testimonial from "sections/Testimonial-crypto";
 import News from "sections/News";
+import Team from "sections/Team";
 import Gallery from "sections/Gallery";
 import Getapp from "sections/Getapp-crypto";
 import Contact from "sections/Contact-crypto";
@@ -36,6 +37,7 @@ const IndexPage = () => (
       <PreSell />
       <Gallery />
       <Roadmap />
+      <Team />
       <Contact />
       <Footer />
     </Layout>
