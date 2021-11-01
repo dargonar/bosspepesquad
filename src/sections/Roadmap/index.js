@@ -18,13 +18,12 @@ const Roadmap = () => {
       <Container fullWidthSM>
         <SectionTitle UniWidth="65%">
           <h4 className="hidden">Amazing Features</h4>
-          <h2>
-            <span>PepeMap</span>
+          <h2 id="pepemap">
+            <span>PEPE MAP</span>
           </h2>
         </SectionTitle>
         <Row Vcenter={true}>
-          <Col xs={12} sm={6}>
-
+          <Col xs={12} sm={12}>
             <Row className="row_left">
               <Col xs={12} sm={12} md={12}>
                 <div className="fetures-block">
@@ -70,7 +69,7 @@ const Roadmap = () => {
                   <div className="fetures-text-block">
                     <h3>DECEMBER</h3>
                     <p>
-                      - Meme generator. You can create a meme with your Pepe NFT<br/>
+                      - Meme generator. <br/>You can create a meme with your Pepe NFT<br/>
                       - More!
                     </p>
                   </div>

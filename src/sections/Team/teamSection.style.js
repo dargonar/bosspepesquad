@@ -46,7 +46,7 @@ const TeamSectionWrapper = styled.section`
         text-align:center;
         a{
             color: ${props => props.theme.headingColor};
-            font-size: 22px;
+            font-size: 28px;
             font-weight: 400;
             line-height: 30px;
             margin-bottom: 15px;

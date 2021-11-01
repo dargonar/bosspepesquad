@@ -31,7 +31,7 @@ const Faq = () => {
       <img className="section__particle two" src={particle2} alt="img" />
       <Container fullWidthSM>
         <SectionTitle className="section-title" UniWidth="80%">
-          <h2>
+          <h2 id="faq">
             <span>FAQ </span>
           </h2>
         </SectionTitle>

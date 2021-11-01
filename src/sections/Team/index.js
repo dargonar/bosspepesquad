@@ -22,7 +22,7 @@ const News = () => {
       <Container>
         <SectionTitle className="section-title" UniWidth="52%">
           <h4 className="hidden">Blog post</h4>
-          <h2>
+          <h2 id="team">
             <span>THE TEAM </span>
           </h2>
         </SectionTitle>

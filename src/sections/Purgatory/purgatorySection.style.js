@@ -6,8 +6,7 @@ const SeftyItemWrapper = styled.div`
         font-weight: 300;
         margin-bottom: 80px;
         margin-top: 0;
-
-        font-size: 18px;
+        font-size: 28px;
         font-weight: 400; 
     }
     .sefty__block__wrap{
@@ -31,8 +30,8 @@ const SeftyItemWrapper = styled.div`
             font-weight: 400;
         }
         p{
-            font-size: 16px;
-            font-weight: 300
+            font-size: 28px;
+            font-weight: 300;
         }
 
         img{

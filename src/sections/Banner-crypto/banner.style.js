@@ -10,7 +10,7 @@ const BannerSectionWrapper = styled.div`
     background-size: 500px;
     background-position: 85%;
     p{
-        font-size: 18px;
+        font-size: 28px;
         font-weight: 400; 
         margin: 0 0 14px 0;
     }

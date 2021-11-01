@@ -2,75 +2,36 @@ const Data = {
     menuItems: [
       {
         name: "ABOUT",
-        path: "/",
-        subItems: [
-          {
-            name: "Home Default",
-            path: "/"
-          },
-          {
-            name: "Home Classic",
-            path: "/classic"
-          },
-          {
-            name: "Home Modern",
-            path: "/modern"
-          },
-          {
-            name: "Home Hosting",
-            path: "/hosting"
-          },
-          {
-            name: "Home Crypto",
-            path: "/crypto"
-          }
-        ]
+        path: "/#about",
       },
+      // {
+      //   name: "PURGATORY",
+      //   path: "/#purgatory",
+      //   offset: "-50"
+      // },
       {
         name: "GALLERY",
-        path: "/#features",
+        path: "/#gallery",
+        offset: "-50"
+      },
+      {
+        name: "PEPEMAP",
+        path: "/#pepemap",
         offset: "-50"
       },
       {
         name: "TEAM",
-        path: "/#pricing",
+        path: "/#team",
         offset: "-50"
       },
-      {
-        name: "STATS",
-        path: "/#testimonial",
-        offset: "-50"
-      },
+      // {
+      //   name: "RARITY",
+      //   path: "/#rarity",
+      //   offset: "-50"
+      // },
       {
         name: "FAQ",
         path: "/#faq",
-        offset: "-50"
-      },
-      {
-        name: "ROADMAP",
-        path: "/blog-grid",
-        subItems: [
-          {
-            name: "Blog Grid",
-            path: "/blog-grid"
-          },
-          {
-            name: "Blog List",
-            path: "/blog-list"
-          },
-      {
-        name: "ANOTHER",
-        path: "/blog-full"
-      },
-          {
-            name: "Blog Single",
-            path: "/blog-single"
-          }
-        ]
-      },
-      {
-        name: "CONTACT",
-        path: "/#contact",
         offset: "-50"
       }
     ]

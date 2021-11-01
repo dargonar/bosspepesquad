@@ -119,7 +119,7 @@ const Gallery = () => {
       <Container>
         <SectionTitle className="section-title" UniWidth="52%">
           <h4 className="hidden">Blog post</h4>
-          <h2>
+          <h2 id="gallery">
             <span>GALLERY</span>
           </h2>
         </SectionTitle>

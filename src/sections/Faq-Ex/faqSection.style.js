@@ -29,7 +29,7 @@ const FaqSectionWrapper = styled.div`
       background: #353290;
       h5 {
         font-weight: 500;
-        font-size: 22px;
+        font-size: 28px;
         color: ${props => props.theme.textColor};
       }
       > div {
@@ -42,7 +42,7 @@ const FaqSectionWrapper = styled.div`
     .accordion__body {
       padding: 20px;
       p {
-        font-size: 16px;
+        font-size: 28px;
         font-weight: 300;
         margin: 0;
       }
@@ -57,6 +57,9 @@ const FaqSectionWrapper = styled.div`
   .section-title {
     h2 {
       margin-bottom: 42px;
+      span{
+        font-size:28px;
+      }
     }
   }
   .faq-thumb-block {

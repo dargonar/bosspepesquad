@@ -13,11 +13,12 @@ import particle2 from "assets/images/app/particle/09.png";
 import RaritySectionWrapper from "./raritySection.style";
 
 const News = () => {
+  return null;
   return (
     <RaritySectionWrapper>
       <Container>
         <SectionTitle className="section-title" UniWidth="52%">
-          <h2>
+          <h2 id="rarity">
             <span>RARITY SHEET</span>
           </h2>
         </SectionTitle>

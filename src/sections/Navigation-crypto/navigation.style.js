@@ -49,7 +49,7 @@ const NavigationWrap =  styled.header`
   
   nav {
     font-family: 'VT323';
-    fon-size:25px;
+    fon-size:28px;
     ul {
       margin: 0;
       padding: 0;
@@ -79,7 +79,7 @@ const NavigationWrap =  styled.header`
       a, .nav-active{
         position: relative;
         color: ${props => props.theme.menuColor ? props.theme.menuColor : '#fff'};
-        font-size: 15px;
+        font-size: 28px;
         transition: 450ms all;
         padding-bottom: 5px;
         cursor: pointer;

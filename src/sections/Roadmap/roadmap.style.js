@@ -62,14 +62,15 @@ const RoadmapSectionWrapper = styled.div`
         }
         
         h3{
-            font-size: 22px; 
             margin-bottom: 15px;
             font-weight: 600;
             line-height: 30px;
+            font-size:28px;
         }
         p{
             margin: 0 0 50px 0;
             font-weight: 300;
+            font-size:28px;
         }
     }
     @media only screen and (max-width: 912px) {
@@ -80,10 +81,11 @@ const RoadmapSectionWrapper = styled.div`
     }
     @media only screen and (max-width: 568px) {
         .fetures-block{
-            text-align: center;
+            text-align: left;
         }
         .fetures-icon-block{
-            margin: 0 auto 25px auto;
+            /*margin: 0 auto 25px auto;*/
+            min-width:70px;
         }
     }
     

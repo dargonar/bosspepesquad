@@ -23,12 +23,12 @@ const Footer = () => {
               </Link>
               <ul className="social">
                 <li>
-                  <Link className="anchor" to="#">
+                  <Link className="anchor" to="https://discord.gg/n9AqfACtUX" target="_blank">
                     <FaDiscord />
                   </Link>
                 </li>
                 <li>
-                  <Link className="anchor" to="#">
+                  <Link className="anchor" to="https://twitter.com/BossPepeSquads" target="_blank">
                     <FaTwitter />
                   </Link>
                 </li>

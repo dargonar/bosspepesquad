@@ -1,5 +1,6 @@
 import styled from "styled-components";
-import preSellBg from "assets/images/crypto/pre-sell/presell-bg.png";
+// import preSellBg from "assets/images/crypto/pre-sell/presell-bg.png";
+import preSellBg from "assets/images/pepes/countdown/countdown_lab.png";
 
 const AboutSectionWrapper = styled.div`
   padding: 120px 0 100px 0;
@@ -9,6 +10,10 @@ const AboutSectionWrapper = styled.div`
   background-repeat: no-repeat;
   background-size: contain;
 
+  .fake_img{
+    height 500px;
+    width: 500px;
+  }
   .about-thumb {
     width: 100%;
     transform: translateX(-80px);

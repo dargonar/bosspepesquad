@@ -1,11 +1,11 @@
 import React from "react"
 import Particles from "react-particles-js"
 
-import particle1 from "assets/images/app/particle/01.png"
-import particle2 from "assets/images/app/particle/02.png"
-import particle3 from "assets/images/app/particle/03.png"
-import particle4 from "assets/images/app/particle/04.png"
-import particle5 from "assets/images/app/particle/05.png"
+import particle1 from "assets/images/pepes/mouths/normal-01.png"
+import particle2 from "assets/images/pepes/mouths//sonrisa-01.png"
+import particle3 from "assets/images/pepes/mouths//triste-01.png"
+import particle4 from "assets/images/pepes/mouths//normal-01.png"
+import particle5 from "assets/images/pepes/mouths//sonrisa-01.png"
 
 const Particle = () => (
   <div
@@ -31,28 +31,28 @@ const Particle = () => (
             images: [
               {
                 src: `${particle1}`,
-                width: 170,
-                height: 150,
+                width: 505,
+                height: 144,
               },
               {
                 src: `${particle2}`,
-                width: 45,
-                height: 45,
+                width: 505,
+                height: 144,
               },
               {
                 src: `${particle3}`,
-                width: 32,
-                height: 32,
+                width: 505,
+                height: 144,
               },
               {
                 src: `${particle4}`,
-                width: 170,
-                height: 150,
+                width: 505,
+                height: 144,
               },
               {
                 src: `${particle5}`,
-                width: 170,
-                height: 150,
+                width: 505,
+                height: 144,
               },
             ],
           },

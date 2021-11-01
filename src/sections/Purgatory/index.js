@@ -35,7 +35,7 @@ const Purgatory = () => {
               UniWidth="100%"
             >
               <h4>wtf???</h4>
-              <h2>
+              <h2 id="purgatory"> 
                 <span>Purgatory </span>
               </h2>
             </SectionTitle>

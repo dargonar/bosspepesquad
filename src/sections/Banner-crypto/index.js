@@ -21,7 +21,7 @@ const BannerDefault = () => {
               UniWidth="100%"
             >
               <h4 className="hidden">30% off for new users for 1 month</h4>
-              <h1> 
+              <h1 id="about"> 
                 Welcome to the <span>Boss Pepe Squad</span>
               </h1>
             </SectionTitle>
