@@ -24,7 +24,7 @@ const HostingPage = () => (
   <ThemeProvider theme={theme}>
     <GlobalStyle />
     <Layout>
-      <SEO title="Appion Gatsby Hosting" />
+      <SEO title="BossPepeSquad" />
       <Navigation />
       <Banner />
       <About />

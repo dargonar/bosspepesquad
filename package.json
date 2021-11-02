@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-landing",
+  "name": "bosspepesquad",
   "private": true,
-  "description": "React Next Landing with Gatsby Static site generator.",
+  "description": "BossPepeSquad",
   "version": "1.0.3",
-  "author": "Devscorn",
+  "author": "BossPepeSquad",
   "license": "",
   "scripts": {
     "build": "gatsby build",

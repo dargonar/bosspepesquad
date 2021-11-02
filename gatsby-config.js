@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `BossPepeSquad react gatsby nextjs landing`,
+    title: `BossPepeSquad landing`,
     description: `7777 deflationary Pepes created on the Solana Labs and landed on blockchain, all with different characteristics and attributes.`,
     author: `BossPepeSquad Team`,
   },
