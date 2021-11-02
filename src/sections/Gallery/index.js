@@ -43,8 +43,9 @@ import imgGallery183 from "assets/images/pepes/gallery/183.png";
 import imgGallery196 from "assets/images/pepes/gallery/196.png";
 import imgGallery209 from "assets/images/pepes/gallery/209.png";
 
-import particle1 from "assets/images/app/particle/16.png";
-import particle2 from "assets/images/app/particle/09.png";
+import particle1 from "assets/images/pepes/mouths/normal-01.png";
+import particle2 from "assets/images/pepes/mouths/sonrisa-01.png";
+import particle3 from "assets/images/pepes/mouths/triste-01.png";
 
 import GallerySectionWrapper from "./gallerySection.style";
 

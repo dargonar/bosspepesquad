@@ -16,10 +16,13 @@ import Icon from "assets/images/app/integrations/arrow.png"
 import PurgatoryItemWrapper from "./purgatorySection.style"
 import WalletThumb from "assets/images/pepes/gallery/196.png"; 
 
+import FlyingMouths from "reusecore/FlyingMouths"; // <FlyingMouths />
+
 const Purgatory = () => {
   return (
     <PurgatoryItemWrapper>
       <Container>
+        <FlyingMouths />
         <Row Vcenter={true}>
           <Col xs={12} sm={6}>
             <img

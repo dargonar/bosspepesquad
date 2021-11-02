@@ -15,7 +15,7 @@ const BlogListPage = () => (
   <ThemeProvider theme={theme}>
     <Layout>
       <GlobalStyle />
-      <SEO title="Appion Gatsby Home" />
+      <SEO title="BossPepeSquad" />
       <Navigation />
       <BlogList />
       <Footer />

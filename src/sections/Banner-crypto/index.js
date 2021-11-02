@@ -7,11 +7,11 @@ import VintageBox from "reusecore/VintageBox";
 import Particle from "reusecore/Particle";
 
 import BannerSectionWrapper from "./banner.style";
-
+//<Particle />
 const BannerDefault = () => {
   return (
     <BannerSectionWrapper>
-      <Particle />
+      
       <Container fullWidthSM>
         <Row Vcenter> 
           <Col sm={7} md={6} lg={7}>

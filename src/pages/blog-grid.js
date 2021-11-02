@@ -15,7 +15,7 @@ const BlogGridPage = () => (
   <ThemeProvider theme={theme}>
     <Layout>
       <GlobalStyle />
-      <SEO title="Appion Gatsby Home" />
+      <SEO title="BossPepeSquad" />
       <Navigation />
       <BlogPage />
       <Footer/>

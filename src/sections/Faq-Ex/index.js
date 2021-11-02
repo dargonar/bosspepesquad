@@ -17,8 +17,11 @@ import {
 import { IoIosArrowForward, IoIosArrowDown } from "react-icons/io";
 
 import FaqImage from "assets/images/crypto/faq/faq-thumb.png";
-import particle1 from "assets/images/app/particle/07.png";
-import particle2 from "assets/images/app/particle/08.png";
+// import particle1 from "assets/images/app/particle/07.png";
+// import particle2 from "assets/images/app/particle/08.png";
+import particle1 from "assets/images/pepes/mouths/normal-01.png";
+import particle2 from "assets/images/pepes/mouths/sonrisa-01.png";
+import particle3 from "assets/images/pepes/mouths/triste-01.png";
 
 import data from "assets/data/faq";
 
@@ -27,8 +30,6 @@ import FaqSectionWrapper from "./faqSection.style";
 const Faq = () => {
   return (
     <FaqSectionWrapper id="faq">
-      <img className="section__particle one" src={particle1} alt="img" />
-      <img className="section__particle two" src={particle2} alt="img" />
       <Container fullWidthSM>
         <SectionTitle className="section-title" UniWidth="80%">
           <h2 id="faq">

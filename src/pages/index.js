@@ -24,7 +24,6 @@ import Gallery from "sections/Gallery";
 import Getapp from "sections/Getapp-crypto";
 import Contact from "sections/Contact-crypto";
 import Footer from "sections/Footer-Ex";
-import FlyingMouths from "sections/FlyingMouths";
 
 import ComingSoon from "sections/ComingSoon";
 
@@ -32,7 +31,6 @@ import { GlobalStyle } from "theme/crypto/crypto.style";
 import theme from "theme/crypto/themeStyles";
 
 // <Particle />
-// <FlyingMouths />
 // <PreSell />
 
 const IndexPage = () => (
@@ -43,7 +41,6 @@ const IndexPage = () => (
       <Navigation />
       <Banner />
       <Purgatory />
-      
       <ComingSoon />
       <Gallery />
       <Roadmap />
