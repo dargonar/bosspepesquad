@@ -4,7 +4,7 @@ import FooterBG from 'assets/images/crypto/footer-bg.png';
 const FotterWrapper = styled.footer`
   padding-top: 250px;
   padding-bottom: 45px;
-  background: url(${FooterBG});
+  /*background: url(${FooterBG});*/
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
