@@ -39,12 +39,12 @@ const Footer = () => {
         <div className="footer-bottom">
           <ul className="footer-menu">
             <li>
-              <Link className="anchor" to="#">
+              <Link className="anchor" to="#" className="hidden">
                 Terms and Conditions
               </Link>
             </li>
             <li>
-              <Link className="anchor" to="#">
+              <Link className="anchor" to="#" className="hidden">
                 Contact
               </Link>
             </li>
