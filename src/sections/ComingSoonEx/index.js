@@ -13,22 +13,23 @@ import icon4 from "assets/images/crypto/integration/checkmark.png"
 
 import Icon from "assets/images/app/integrations/arrow.png"
 
-import PurgatoryItemWrapper from "./purgatorySection.style"
+import ComingSoonItemWrapper from "./comingSoonSection.style"
 import WalletThumb from "assets/images/pepes/gallery/196.png"; 
+import lab_img from "assets/images/pepes/countdown/countdown_lab.png";
 
 import FlyingMouths from "reusecore/FlyingMouths"; // <FlyingMouths />
 
-const Purgatory = () => {
+const ComingSoon = () => {
   return (
-    <PurgatoryItemWrapper>
+    <ComingSoonItemWrapper>
       <Container>
         <FlyingMouths />
         <Row Vcenter={true}>
           <Col xs={12} sm={6}>
             <img
               className="about-thumb"
-              src={WalletThumb}
-              alt="Purgatory"
+              src={lab_img}
+              alt="Coming Soon"
             />
           </Col>
           <Col xs={12} sm={6} className="sefty-content-wrap">
@@ -37,21 +38,15 @@ const Purgatory = () => {
               leftAlign={true}
               UniWidth="100%"
             >
-              <h2 id="purgatory"> 
-                <span>Purgatory </span>
+              <h2 id="coming-soon"> 
+                <span>COMING SOON</span>
               </h2>
             </SectionTitle>
-            <p className="sefty-text">
-              The Purgatory is the place where Pepes sees the light for the very last time. Each secondary sale has a 3% fee. This money is sent to a wallet (Purgatory). Every week the hunter Pepe will activate the Purgatory, which means that the team is going to sweep the floor on marketplaces. And you will have the possibility to vote what kind of death you want to use… flamethrower? machetes? hanging? The community decides.
-            </p>
-            <VintageBox right={true} vintageTwo={true} position="relative" className="hidden">
-              <Button className="sefty-btn">Learn More</Button>
-            </VintageBox>
           </Col>
         </Row>
       </Container>
-    </PurgatoryItemWrapper>
+    </ComingSoonItemWrapper>
   )
 }
 
-export default Purgatory
+export default ComingSoon

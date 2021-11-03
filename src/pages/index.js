@@ -25,7 +25,8 @@ import Getapp from "sections/Getapp-crypto";
 import Contact from "sections/Contact-crypto";
 import Footer from "sections/Footer-Ex";
 
-import ComingSoon from "sections/ComingSoon";
+// import ComingSoon from "sections/ComingSoon";
+import ComingSoon from "sections/ComingSoonEx";
 
 import { GlobalStyle } from "theme/crypto/crypto.style";
 import theme from "theme/crypto/themeStyles";

@@ -60,8 +60,7 @@ const About = () => {
               </h2>
             </SectionTitle>
             <p className="about-text text-one">
-              No whitelists. <br/>
-              3 NFts per wallet.
+              No whitelists.
             </p>
             {/* <p className="about-text text-two">
               Thought. Road, clearly, and software the shreds sisters contract,
